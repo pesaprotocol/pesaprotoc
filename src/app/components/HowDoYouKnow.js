@@ -1,7 +1,7 @@
 "use client"
 import styles from './know.module.css';
 import { FaBars } from 'react-icons/fa';
-import styled from 'styled-components';
+
 import { SiBlockchaindotcom } from "react-icons/si";
 import { GrStorage } from "react-icons/gr";
 import { FaUserShield } from "react-icons/fa";
