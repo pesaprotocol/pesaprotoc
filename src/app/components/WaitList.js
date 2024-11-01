@@ -69,8 +69,7 @@ export default function WaitList() {
                    className={[styles.formInput, styles.formTextInput].join(" ")}
                    value={email} onChange={e => setEmail(e.target.value)}/>
             */}
-           
-            <a href='https://t.me/treasureswg'>
+            <a href='https://t.me/+deQp6CYYBpcxNjNk'>
                 <button type="submit" className={[styles.formInput, styles.formSubmitButton].join(" ")}>
                     Join Waitlist
                 </button>

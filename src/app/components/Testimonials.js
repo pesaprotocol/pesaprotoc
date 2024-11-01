@@ -24,16 +24,8 @@ export default function Testimonials() {
     return (
     <section className={styles.testimonialsSection}>
       <h2 className={styles.title}>ContactUs</h2>
-      <div className={styles.testimonials}>
-        {testimonials.map((testimonial, index) => (
-          <div className={styles.testimonial} key={index}>
-            {/* <img src={testimonial.image} alt={testimonial.name} className={styles.image} /> */}
-            <p className={styles.quote}>"{testimonial.quote}"</p>
-            <p className={styles.name}>{testimonial.name}</p>
-            <p className={styles.title1}>{testimonial.title}</p>
-          </div>
-        ))}
-      </div>
+      <h2>pesaprotocol@gmail.com</h2>
+      <h2 style={{marginTop:"20px"}}>+256706 626855</h2>
     </section>
   );
 }

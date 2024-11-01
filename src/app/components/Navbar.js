@@ -39,7 +39,8 @@ export default function Navbar() {
                         About
                     </Link>
                 </li>
-                <li className={styles.navItem}>
+                {/*
+                    <li className={styles.navItem}>
                     <Link href="/features" className={styles.navLink}>
                         Features
                     </Link>
@@ -49,6 +50,8 @@ export default function Navbar() {
                         className={styles.navLink}>Pricing
                     </Link>
                 </li>
+                */}
+                
                 <li className={styles.navItem}>
                     <Link href="/contact" className={styles.navLink}>Contact</Link>
                 </li>
